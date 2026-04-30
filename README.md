@@ -31,6 +31,9 @@ JSONic programs are JSON arrays or objects interpreted by the JSONic interpreter
 ```bash
 python jsonic.py program.json
 ```
+```bash
+jsonic.exe program.json
+```
 
 Where `program.json` contains your JSONic code.
 
