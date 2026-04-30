@@ -1,0 +1,20 @@
+[
+	{ "comment": "Define a function that doubles a number" },
+	{
+		"func": {
+			 "name": "power",
+			 "params": ["n"],
+			 "body": {
+			 	"return": {
+			 		"mul": ["n", "n"] 
+			 		} 
+			 	}      
+			 }    
+		},    
+		
+	{"let": ["p", { "call" : [ "int", {"input": "Enter value to exponent: "}]}]},
+	{ "let": ["y", { "call": ["power", "p"] }] },    
+	{ "call": ["print", "Power of ", "x", " is", "y"] 	},
+	
+	{ "print" : {"call" : ["read_file", "run command.txt"] }}
+]
